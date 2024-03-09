@@ -1,3 +1,9 @@
+"""
+Calculator Application
+
+This defines the Calculator class for performing basic arithmetic operations.
+"""
+
 # test_calculator.py
 import unittest
 from calculator import Calculator

@@ -62,7 +62,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
-          args: -Dsonar.projectKey=devops-assignment-001_python-app-poc
+          args: -Dsonar.projectKey=devops-assignment-001_python-app
             -Dsonar.organization=devops-assignment
       - name: Analyze project with SonarCloud
-        run: sonar-scanner
+        run: sonar-scanner -X

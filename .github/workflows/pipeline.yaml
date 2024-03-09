@@ -58,10 +58,10 @@ jobs:
 
     - name: Set up SonarCloud
       uses: sonarsource/sonarcloud-github-action@master
-      with:
-        sonar-project-key: ${{ secrets.SONAR_PROJECT_KEY }}
-        sonar-organization: ${{ secrets.SONAR_ORGANIZATION }}
-        sonar-token: ${{ secrets.SONAR_TOKEN }}
+      # with:
+        # sonar-project-key: ${{ secrets.SONAR_PROJECT_KEY }}
+        # sonar-organization: ${{ secrets.SONAR_ORGANIZATION }}
+        # sonar-token: ${{ secrets.SONAR_TOKEN }}
 
     - name: Analyze project with SonarCloud
       run: sonar-scanner

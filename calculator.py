@@ -15,7 +15,7 @@ class Calculator:
         Adds two numbers.
         """
         return a + b
-    
+
     # subtract function
     def subtract(self, a, b):
         """

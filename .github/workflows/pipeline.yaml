@@ -63,6 +63,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: -Dsonar.projectKey=devops-assignment-001_python-app
-            -Dsonar.organization=devops-assignment
+            -Dsonar.organization=devops-assignment-001
       - name: Analyze project with SonarCloud
         run: sonar-scanner -X

@@ -1,4 +1,8 @@
-# calculator.py
+"""
+Calculator Application
+
+This defines the Calculator class for performing basic arithmetic operations.
+"""
 
 class Calculator:
     """
